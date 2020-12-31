@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- User Story #1  -->    
+<main id="main">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ 
+  <style>
+    header{
+      background-color: #CEF6F5;
+      height: 150px;
+      }  
+    header h1{
+        text-align: center;
+        color: brown;
+        line: height; 50px;
+        font-family: 'georgia', Lucida Sans Unicode;
+        }
+      header h2{
+        text-align: center;
+        font-variant: small-caps;
+        font-size: 16px;
+        font-family: 'tahoma', Lucida Sans Unicode;
+        }
+    image{
+      
+    }
+    tribute-info{
+      color: blue;
+    }
+    ul {
+    width: 10%;
+    margin: auto;
+    }
+    .responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+  </style>
+ <header> 
+<!--  User Story #2  -->   
+  <h1 id="title">Muffin McStuffins</h1> 
+   <h2>Just cattin around</h2> 
+  </header>
+<br>
+<!-- User Story #3 -->  
+  <div align="center" id="img-div">
+<!-- User Story #4 -->
+ <figure id="image">
+<img src="https://bit.ly/fcc-relaxing-cat" alt="Cute kitten">
+    </figure>
+<!-- User Story #5 -->    
+    <figcaption id="img-caption">I am just purrfect</figcaption>
+  </div>
+ <br>
+<!-- User Story #6 -->  
+  <p id="tribute-info" align="center">Tricks Muffins is learning</p>
+  <ul>
+   <li> scratching furniture</li>
+  <li>ignoring people</li>
+    <li>hiding</li>
+      <li>meowing</li>
+    </ul>
+<!-- User Story #7, 8 and 9 -->
+<!-- https://www.w3schools.com/howto/howto_css_image_responsive.asp -->
+<p><a href="https://www.youtube.com/watch?v=-JUw_oYxGrk" target="_blank" id="tribute-link" alt="My escape" class="responsive">My escape</a></p>
+    
+</main>
+  </html>

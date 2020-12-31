@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- User Story #1 -->  
+  <main id="main-doc">
+    <style>
+      .nav-link{
+      font-family: monospace;
+      padding: 20px;
+      color: maroon; 
+      .nav-bar{
+      text-align: center;    
+      }
+      }
+      .main-section{
+      color: maroon;
+      }
+      a { 
+      text-decoration:none; 
+      color: rgb(139,69,19); 
+      font-size:20px; 
+      } 
+      body {
+      background-color: tan;
+      }
+      @media screen and (max-width: 600px) {
+      body {
+      background-color: teal;
+      }
+      }
+      h1{
+        color: rgb(139,69,19);
+        font-family: monospace;
+        text-align: center;
+      }
+      h2{
+        color: rgb(139,69,19);
+        font-family: monospace;
+        text-align: center;
+      }
+      h3{
+        color: rgb(139,69,19);
+        font-family: monospace;
+        
+      }
+    </style>
+    <body>
+<!-- User Story #2 -->      
+ <section class="main-section">
+<!-- User Story #3, 4, 5 and 6 -->   
+   <header id="main-section">
+     <h1><i> These are very technical documents and only smart people should attempt to read them</i> </h1>
+     <p> 
+<!-- User Story #13 - I do not know how to test this, please reply -->       
+     <nav id="nav-bar"  class="nav-bar">
+       <h2> Use the links below to navigate this page  </h2>
+       <a name="Shortcut Keys"></a>
+        <a class="nav-link" href="#">Shortcut Keys</a> |  
+        <a class="nav-link" href="#">Angel Food Cake</a> |  
+        <a class="nav-link" href="#">Mathematical Equation</a> | 
+        <a class="nav-link" href="#">Exam Results</a> |  
+        <a class="nav-link" href="#">Demo Heading</a> 
+  </nav> 
+          </p>
+         <br>
+   </header>
+    </section>
+    <br>
+    <section class="main-section">
+       <header id="Shortcut_keys"><a name="Shortcut Keys"></a>
+         <h3><u>Shortcut Keys</u></h3>
+         <a name="Shortcut Keys"></a>
+    <p> This shown an example of the kbd code element </p>     
+<p>Use the following shortcut keys −</p>
+<p><strong>Cut</strong> − <kbd>CTRL</kbd>+<kbd>X</kbd></p>
+<p><strong>Copy</strong> − <kbd>CTRL</kbd>+<kbd>C</kbd></p>
+<p><strong>Paste</strong> − <kbd>CTRL</kbd>+<kbd>V</kbd></p>
+<p><strong>Undo</strong> − <kbd>CTRL</kbd>+<kbd>Z</kbd></p>
+         <p>    </p>
+   </header>
+    </section>
+  <br>
+  <section class="main-section">
+     <header id="Angel_Food_Cake"><a name="Angel Food Cake"></a>
+       <h3><u>Angel Food Cake</u></h3>
+       <a name="Angel Food Cake"></a>
+       <p>Angel food cake, or angel cake, is a type of sponge cake made with egg whites, flour, and sugar. A whipping agent, such as cream of tartar, is commonly added. It differs from other cakes because it uses no butter. Its aerated texture comes from whipped egg white. Angel food cake originated in the United States and first became popular in the late 19th century, reaching its peak popularity in the early 2000s. It gained its unique reputation along with its name due to its light and fluffy texture.    </p>
+       <p> 
+        <ul>
+       <li> 1 cup flour </li>
+          <li> 9 eggs </li>
+        <li> 1/2 cup sugar </li>
+        <li> 1 teaspoon vanilla extract </li>
+        <li> 1 chopped up angel </li>
+     </ul>
+       </p>
+         
+   </header>
+    </section>
+  <br>
+  <section class="main-section">
+     <header id="Mathematical_Equation"><a name="Mathematical Equation"></a>
+       
+       <h3><u>Mathematical Equation</u></h3>
+       <a name="Mathematical Equation"></a>
+       <p> Mathematical equations aren't just useful — many are quite beautiful. And many scientists admit they are often fond of particular formulas not just for their function, but for their form, and the simple, poetic truths they contain.   </p>
+       <p> This shown an example of the var code element </p>
+Sample equation − <var>2x</var> - <var>2z</var> = <var>3y</var> + 9
+               
+   </header>
+    </section>
+    <br>
+    
+    <section class="main-section">
+       <header id="Exam_Results"><a name="Exam Results"></a>
+         <h3><u>Exam Results</u></h3>
+         <a name="Exam Results"></a>
+     <p> To renew your certifications, you must first earn Continuing Education Units (CEUs) by participating in continuing education and professional development activities. You can accrue CEUs to meet the renewal acquirement within your three-year renewal period.   </p>
+      <p> This shown an example of the samp code element   </p>   
+    <p><s>Result would be announced on 6th June.</s></p>
+    <samp>New date for results are 7th June.</samp>
+              
+   </header>
+    </section>
+    <br>
+    
+    <section class="main-section">
+       <header id="Demo_Heading"><a name="Demo Heading"></a>
+         <h3><u>Demo Heading</u></h3>
+         <a name="Demo Heading"></a>
+          <p> This shown an example of the pre code element </p>
+<p><pre>
+   This is a demo text
+   and will appear
+   in the same format as
+   it
+   is visible
+   here. The pre tag displays
+   the text in a fixed-width
+   font. It preserves
+   both spaces and
+   line breaks as you can see
+   here.
+</pre></p>
+        
+   </header>
+    </section>
+  </body>
+  </main>
+</html>

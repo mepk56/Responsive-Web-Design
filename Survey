@@ -1,0 +1,105 @@
+  <!DOCTYPE HTML>
+<html lang="en">
+   <head>
+     <title>Forms Project</title></head>
+<!--Title is what appears on the webpage tab-->
+  <body>
+     <style>
+   body{
+      background-image: url(https://wallpapertag.com/wallpaper/full/b/9/6/350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+        background-size: 100% 100%;
+    }
+    header{
+              
+      }  
+    header h1{
+        text-align: center;
+        color: orange;
+        line: height; 50px;
+        font-family: 'georgia', Lucida Sans Unicode;
+        }
+      header p{
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'tahoma', georgia;
+        }
+      survey-form{
+        font-family: 'arial', monospace;
+        }
+       legend{
+         font-family: 'sans-serif', tahoma;
+         color: #66FFFF;
+       }
+       name{
+         color: #66FFFF;
+       }
+       button{
+        text-align: center;
+        color: brown;
+        line: height; 50px;
+        font-family: 'Lucida Sans Unicode', georgia;
+       }
+  </style>
+ <header> 
+<!-- User Story #1  --> 
+  <h1 id="title">Code Camp Survey Form Project</h1> 
+<!--  User Story #2  --> 
+   <p id="description" align="center"><i>Fill in all information then click <b>Submit</b></i></p></header>
+<!-- User Story #3 -->  
+  <br>
+   <section> 
+<!-- User Story #3 and 10 -->     
+    <form id="survey-form">
+  <fieldset>
+    <legend id="legend"><b>General information</b></legend><br>
+    <label id="name-label" for="name">Name:</label><br>
+<!-- User Story #4 and 11 -->   
+  <input type="text" id="name" name="name" size="100%" required placeholder="Enter your full name"><br><br>
+<!-- User Story #5 -->
+<!-- User Story #6 I can't find a solution without Java and we have not learned Java script yet --> 
+    <label id="email-label" for="email">Email:</label><br>
+  <input type="text" id="email" name="email" size="100%" required placeholder="Enter a valid email address"><br><br>
+    <label id="number-label" for="age">Age (optional):</label><br>
+<!-- User Story #7 and 9 -->    
+  <input type="number" id="number" min="1" max="100" name="age" size="100%" placeholder="optional"><br><br>
+      </fieldset>
+     <br>
+   <fieldset>
+<!-- User Story #13 -->     
+    <legend><b>Would you recommend a career in coding?</b></legend><br>
+    <label><input type="radio" name="radio"> Absolutely</label><br>
+    <label><input type="radio" name="radio"> Perhaps, to the right person</label><br>
+    <label><input type="radio" name="radio"> No - way too hard</label>
+  </fieldset>
+    <br>
+   <fieldset>
+<!-- User Story #14 -->     
+    <legend><b>What do you like most about coding?</b></legend><br>
+    <input type="checkbox" id="coding1" name="coding1" value="Developing Websites">
+  <label for="coding1" color="#ff0000"> Developing Websites</label><br>
+  <input type="checkbox" id="coding2" name="coding2" value="Building Apps">
+  <label for="coding2"> Building Apps</label><br>
+  <input type="checkbox" id="coding" name="coding3" value="Analytics">
+  <label for="coding3"> Analytics</label>
+      </fieldset>
+      <br>
+ <!-- User Story #12 -->     
+  <fieldset> 
+    <legend><b>How soon would you be looking to make a career change?</b></legend><br>
+      <select name = "dropdown">
+            <option value = "Currently unemployed and looking now" selected>Currently unemployed and looking now</option>
+            <option value = "Currently employed and looking ">Currently employed and looking - boss does not know</option>
+            <option value = "Just curious at this time">Just curious at this time</option>
+         </select>
+      </fieldset>
+ <fieldset>
+<!-- User Story #15 -->   
+   <legend><b>General comments</b></legend><br>
+   <textarea type="text" id="comments" name="comments" rows="4" cols="200">Enter your comments here ....</textarea>
+      </fieldset>
+<!-- User Story #16 -->      
+     <br><button type="submit" id="button"><b>Submit</b></button>
+    </form></section>
+  </body>
+    </html>

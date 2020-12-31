@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head></head>
+  <title></title>
+  
+  <style>
+    .nav-bar{
+     
+    }
+    .nav-link { 
+    margin: 10px;
+    padding: 40px;
+    }
+    header{
+      
+    }
+    #box-container {
+    height: 400px;
+    display: flex;
+    }
+    #box-1 {
+    background-color: teal;
+    width: 33%;
+    height: 50%;
+    }
+    #box-2 {
+    background-color: orange;
+    width: 33%;
+    height: 50%;
+    }
+    #box-3 {
+    background-color: grey;
+    width: 33%;
+    height: 50%;
+    }
+    a { 
+    text-decoration:none; 
+    color: maroon; 
+    font-size:30px; 
+    } 
+    video{
+    
+    }
+    </style>
+  <div id="box-container">
+  <div id="box-1">
+<!-- User Story #1 -->    
+    <header id="header">
+<!-- User Story #2 -->            
+    <img id="header-img" src="https://images.freecreatives.com/wp-content/uploads/2015/04/logo033.png" width="50%" alt="company logo">
+  </header>
+      </div>
+  
+    <div id="box-2">
+<!-- User Story #3 -->
+<!-- I had nav inside the header but once #15 required flexbox I like the look of this better -->
+<!-- User Story #4 -->      
+  <nav id="nav-bar"  class="nav-bar">
+        <a class="nav-link" href="#">Home</a> |  
+        <a class="nav-link" href="#">About</a> |  
+        <a class="nav-link" href="#">Contact</a>  
+  </nav>
+<!-- I do not know how to test User Story #5 -->      
+      </div>
+    <div id="box-3">
+<!-- I like how I got the video to sit over 2 of the boxes --> <!-- User Story #6 -->     
+      <video class="center" controls="controls" id="video" width="400">
+    <source src="media/shuttle.mp4" type="video/mp4">
+    <source src="media/shuttle.ogv" type="video/ogg">
+    Your browser does not support the HTML5 Video element.
+    </video>
+  </div>
+</div>
+<!-- I am not sure why there is a distance between the flexbox and the body --> 
+  <body>
+<!-- User Story #14, I have no idea how to test this -->    
+    @media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+    <a name="Home"></a>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p><br>
+    <a name="About"></a>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+  <br>
+<!-- User Story #7, 8 and 9 -->    
+    <form action="mailto:contact@yourdomain.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+     <label id="email-label" for="email">Stay up to date, be on our mailing list:</label><br>
+  <input type="text" id="email" name="email" size="100%" required placeholder="Enter a valid email address"><br>
+<!-- User Story #10 - As stated in the Survey project, I can't find a validation solution without Java and we have not learned Java script yet.  If you can send me a link where I can learn this I will fix and resubmit this project.  -->
+      
+<!-- User Story #11 and 12 -->      
+        <br>
+      <button type="submit" id="submit" value="Submit"><b>Submit</b></button>
+    </form>
+    <a name="Contact"></a>
+    </body>  
+</html>
